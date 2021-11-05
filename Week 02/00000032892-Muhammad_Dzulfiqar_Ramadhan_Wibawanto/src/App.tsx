@@ -140,3 +140,90 @@ const App: React.FC = () => {
 };
 
 export default App;
+
+// import { Redirect, Route } from "react-router-dom";
+// import {
+//   IonApp,
+//   IonButton,
+//   IonCol,
+//   IonGrid,
+//   IonHeader,
+//   IonIcon,
+//   IonInput,
+//   IonItem,
+//   IonLabel,
+//   IonRouterOutlet,
+//   IonRow,
+//   IonTitle,
+//   IonToolbar,
+//   IonCard,
+//   IonCardContent,
+//   IonContent,
+//   IonList,
+//   IonTextarea,
+//   IonItemDivider,
+//   IonSelect,
+//   IonSelectOption,
+// } from "@ionic/react";
+// import { IonReactRouter } from "@ionic/react-router";
+// import Home from "./pages/Home";
+// import { useRef, useState } from "react";
+// import {
+//   calculatorOutline,
+//   refreshOutline,
+//   bookmarkOutline,
+// } from "ionicons/icons";
+
+// /* Core CSS required for Ionic components to work properly */
+// import "@ionic/react/css/core.css";
+
+// /* Basic CSS for apps built with Ionic */
+// import "@ionic/react/css/normalize.css";
+// import "@ionic/react/css/structure.css";
+// import "@ionic/react/css/typography.css";
+
+// /* Optional CSS utils that can be commented out */
+// import "@ionic/react/css/padding.css";
+// import "@ionic/react/css/float-elements.css";
+// import "@ionic/react/css/text-alignment.css";
+// import "@ionic/react/css/text-transformation.css";
+// import "@ionic/react/css/flex-utils.css";
+// import "@ionic/react/css/display.css";
+
+// /* Theme variables */
+// import "./theme/variables.css";
+
+// const App: React.FC = () => {
+//   return (
+//     <IonApp className="ion-padding">
+//       <IonHeader>
+//         <IonToolbar>
+//           <IonTitle>Hello World !</IonTitle>
+//         </IonToolbar>
+//       </IonHeader>
+//       <IonContent>
+//         <IonList>
+//           <IonItem>
+//             <IonInput placeholder="Name" type="text"></IonInput>
+//           </IonItem>
+//           <IonItem>
+//             <IonInput placeholder="Name" type="date"></IonInput>
+//           </IonItem>
+//           <IonItem>
+//             <IonTitle>Gender</IonTitle>
+//             <IonSelect placeholder="Select One">
+//               <IonSelectOption value="female">Female</IonSelectOption>
+//               <IonSelectOption value="male">Male</IonSelectOption>
+//             </IonSelect>
+//           </IonItem>
+//           <br />
+//           <IonButton color="primary" size="small">
+//             <IonIcon icon={bookmarkOutline} />
+//             Register
+//           </IonButton>
+//         </IonList>
+//       </IonContent>
+//     </IonApp>
+//   );
+// };
+// export default App;
